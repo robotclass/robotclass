@@ -12,6 +12,8 @@
 Предполагается, что вы проделали процедуру настройки RPi (например на базе данного туториала
 https://github.com/robotclass/robotclass/blob/master/articles/raspberry-pi-start/raspberry-pi-start.md)
 
+Установлена система Raspberian (aka Debian)
+
 Начальное состояние
 -------------------
 
@@ -219,6 +221,43 @@ URL для остановки:
 У нас достаточно быстро получился несложный  пример веб-приложения на языке Ruby, 
 которое легко можно изменить для запуска любых shell команд на RaspberryPi
 микрокомпьютере.
+
+
+Производительность
+------------------
+
+В качестве эксперимента был создан тестовый роутер:
+
+    get '/test' do
+      @t = 'test'
+      erb :test
+    end
+    
+И шаблон:
+
+    @@test
+
+    <!DOCTYPE html>
+    <html>
+      <head>
+        <title>Ruby demo</title>
+      </head>
+      <body>
+      <pre><%= @t %></pre>
+      </body>
+    </html>
+
+
+И выполнен запрос командой `ApacheBench`
+
+    ab -c 1 -n 100 http://IP.IP.IP.IP:PORT/test
+
+С другой машины, результат:
+
+    Requests per second:    12.64 [#/sec] (mean)
+
+То есть порядка 10 запросов в секунду может выдавать Ruby Sinatra веб-фреймвор, 
+на простых задачах отображения, установленный на RaspberryPi.
 
 
 Ссылки
