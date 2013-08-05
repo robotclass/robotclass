@@ -14,6 +14,8 @@ https://github.com/robotclass/robotclass/blob/master/articles/raspberry-pi-start
 
 Установлена система Raspberian (aka Debian)
 
+---
+
 Начальное состояние
 -------------------
 
