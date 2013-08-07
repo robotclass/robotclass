@@ -19,6 +19,7 @@ https://github.com/robotclass/robotclass/blob/master/articles/raspberry-pi-start
 USB Веб-камера подключена к RaspberryPi, который подключен к сети, и вы можете заходить по ssh.
 (в случае захода на RPi консольно через ssh - монитор, клавитара и мышка не нужны)
 
+---
 
 Установка ПО
 ------------
