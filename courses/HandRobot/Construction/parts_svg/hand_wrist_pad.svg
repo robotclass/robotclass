@@ -1,0 +1,33 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="43.0mm" height="61.3999999999998mm"
+ viewBox="0 0 43.0 61.3999999999998"
+ xmlns="http://www.w3.org/2000/svg" version="1.1"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+<desc>Output from Flights of Ideas SVG Sketchup Plugin</desc>
+
+<g id="text_annotations" font-size="10" stroke="rgb(255,0,0)" stroke-width="1">
+</g>
+  <g id="face0" fill="none" stroke="rgb(0,0,255)" stroke-width="1" stroke-miterlimit="4" stroke-dasharray="none" stroke-linejoin="round" stroke-linecap="round">
+    <line x1="29.0" y1="49.3999999999998" x2="33.0" y2="49.3999999999998"/>
+    <line x1="33.0" y1="49.3999999999998" x2="33.0" y2="12.0"/>
+    <line x1="33.0" y1="12.0" x2="29.0" y2="12.0"/>
+    <line x1="29.0" y1="12.0" x2="29.0" y2="10.0"/>
+    <line x1="29.0" y1="10.0" x2="24.0" y2="10.0"/>
+    <line x1="24.0" y1="10.0" x2="24.0" y2="12.0"/>
+    <line x1="24.0" y1="12.0" x2="19.0" y2="12.0"/>
+    <line x1="19.0" y1="12.0" x2="19.0" y2="10.0"/>
+    <line x1="19.0" y1="10.0" x2="14.0" y2="10.0"/>
+    <line x1="14.0" y1="10.0" x2="14.0" y2="12.0"/>
+    <line x1="14.0" y1="12.0" x2="10.0" y2="12.0"/>
+    <line x1="10.0" y1="12.0" x2="10.0" y2="49.3999999999998"/>
+    <line x1="10.0" y1="49.3999999999998" x2="14.0" y2="49.3999999999998"/>
+    <line x1="14.0" y1="49.3999999999998" x2="14.0" y2="51.3999999999998"/>
+    <line x1="14.0" y1="51.3999999999998" x2="19.0" y2="51.3999999999998"/>
+    <line x1="19.0" y1="51.3999999999998" x2="19.0" y2="49.3999999999998"/>
+    <line x1="19.0" y1="49.3999999999998" x2="24.0" y2="49.3999999999998"/>
+    <line x1="24.0" y1="49.3999999999998" x2="24.0" y2="51.3999999999998"/>
+    <line x1="24.0" y1="51.3999999999998" x2="29.0" y2="51.3999999999998"/>
+    <line x1="29.0" y1="51.3999999999998" x2="29.0" y2="49.3999999999998"/>
+  </g>
+</svg>
