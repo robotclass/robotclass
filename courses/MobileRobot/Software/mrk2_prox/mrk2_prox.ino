@@ -52,6 +52,11 @@ void loop() {
   if( digitalRead(PROX_L_PIN) ){
       moveBackward();
       delay(500);
+      rollRight();
+      delay(300);
+  } else if( digitalRead(PROX_R_PIN) ){
+      moveBackward();
+      delay(500);
       rollLeft();
       delay(300);
   } else {    
